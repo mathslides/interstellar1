@@ -48,8 +48,8 @@ importers:
         specifier: ^4.28.1
         version: 4.28.1
       lucide-astro:
-        specifier: ^0.445.0
-        version: 0.445.0(astro@4.15.8(@types/node@22.5.4)(rollup@4.21.0)(typescript@5.6.2))
+        specifier: ^0.453.0
+        version: 0.453.0(astro@4.15.8(@types/node@22.5.4)(rollup@4.21.0)(typescript@5.6.2))
       mime:
         specifier: ^4.0.4
         version: 4.0.4
@@ -1721,8 +1721,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-astro@0.445.0:
-    resolution: {integrity: sha512-Kwu16SK5cHQBf9uEZJZrJGSIwEJz5bZDR4lkaOX7hdoSRwLnzhWnnjq6YMyOi/scafdasMvkt7+dteDOLHU+0w==}
+  lucide-astro@0.453.0:
+    resolution: {integrity: sha512-RSbCNNSspnCmqsMrJV9CuZXcMYACEOWdhNj0k1NBND0xdv6oruBBSkbkOOFHSZJgnFVLUevpSOU14xmGsrN+KQ==}
     peerDependencies:
       astro: '>=2.7.1'
 
@@ -2017,9 +2017,6 @@ packages:
   path-scurry@1.11.1:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
-
-  path-to-regexp@6.2.2:
-    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
 
   path-to-regexp@8.1.0:
     resolution: {integrity: sha512-Bqn3vc8CMHty6zuD+tG23s6v2kwxslHEhTj4eYaVKGIEB+YX/2wd0/rgXLFD9G9id9KCtbVy/3ZgmvZjpa0UdQ==}
@@ -4498,7 +4495,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-astro@0.445.0(astro@4.15.8(@types/node@22.5.4)(rollup@4.21.0)(typescript@5.6.2)):
+  lucide-astro@0.453.0(astro@4.15.8(@types/node@22.5.4)(rollup@4.21.0)(typescript@5.6.2)):
     dependencies:
       astro: 4.15.8(@types/node@22.5.4)(rollup@4.21.0)(typescript@5.6.2)
 
@@ -4955,8 +4952,6 @@ snapshots:
     dependencies:
       lru-cache: 10.4.3
       minipass: 7.1.2
-
-  path-to-regexp@6.2.2: {}
 
   path-to-regexp@8.1.0: {}
 
